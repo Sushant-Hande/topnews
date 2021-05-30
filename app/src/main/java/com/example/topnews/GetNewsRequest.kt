@@ -22,9 +22,7 @@ class GetNewsRequest(private val handler: Handler) : Thread() {
         super.run()
 
         val url: URL
-
         var response: String? = ""
-
         val message = Message()
 
         try {
